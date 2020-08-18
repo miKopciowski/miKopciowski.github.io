@@ -1,0 +1,42 @@
+.hero{
+    height: 90vh;
+    position: relative;
+    /* min-height: 90vh; */
+}
+
+.hero-name{
+    font-size: 10vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.hero-surname{
+    font-size: 10vw;
+    margin-top: 0px;
+    color: rgb(19, 19, 19);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
+      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255)
+}
+
+.project-name{
+  font-size: 5vw;
+  color: rgb(19, 19, 19);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
+      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255)
+}
+
+.experience{
+    /* min-height: 40vh; */
+    position: relative;
+    text-align: center;
+    /* min-height: 90vh; */
+}
+
+  
+  #hero-content {
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
