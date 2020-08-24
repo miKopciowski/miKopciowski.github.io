@@ -13,9 +13,9 @@
 .hero-surname{
     font-size: 10vw;
     margin-top: 0px;
-    color: rgb(19, 19, 19);
-    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
-      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255)
+    /* color: rgb(255, 255, 255); */
+    /* text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
+      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255) */
 }
 
 .project-name{
@@ -40,3 +40,8 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  @font-face {
+    font-family: Altero;
+    src: url("/fonts/Altero-Regular.otf") format("opentype");
+}
