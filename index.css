@@ -20,9 +20,11 @@
 
 .project-name{
   font-size: 5vw;
-  color: rgb(19, 19, 19);
-    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
-      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255)
+  font-family: 'Altero';
+  /* text-transform: uppercase; */
+  color: rgb(255, 255, 255);
+    /* text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255),
+      1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255) */
 }
 
 .experience{
