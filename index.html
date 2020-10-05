@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <!-- <title>Mikolaj Kopciowski</title> -->
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
     <!-- Primary Meta Tags -->
     <title>Mikołaj Kopciowski | Front-end developer</title>
     <meta name="title" content="Mikołaj Kopciowski | Front-end developer">
@@ -35,32 +38,33 @@
     gtag('config', 'UA-175727318-1');
     </script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+   
 
 </head>
 <body style="margin: 0px; font-family: 'Ubuntu Condensed', sans-serif; background-color: rgb(19, 19, 19); color: white;">
 
 <section id="hero" class="hero" style="background-image: url(img/bgsvg2.svg); background-position: center; background-repeat: no-repeat; background-size: cover;">
-<div style="text-align: center; padding-top: 20vh;">
+<div style="text-align: center; padding-top: 20vh; height: 90vh;">
     <p class="hero-desc">I am front-end developer</p>
 
     <h1 class="hero-name" style="font-family: 'Altero'; font-weight: 500;">MIKOLAJ</h1>
     <h1 class="hero-surname" style="font-family: 'Altero'">kopciowski</h1>
 </div>
-
-</section>
-
 <section id="SBMbeats" >
     <div style="text-align: center;">my work<strong style="color:#00D8FF">_</strong></div>
-    <div class="row" style="max-width: 98%; padding-top: 50px; margin: auto;">
+    <div class="row" style="max-width: 98%; padding-top: 150px; margin: auto;">
         <div class="col-md" style="text-align: center;">
-            <img src="img/sbmlogo.png" width="80%" alt="SBM Beats" />
+            <img class="sbm-logo" src="img/sbmlogo.png"  alt="SBM Beats" />
         </div>
-        <div class="col-md" style="text-align: center; padding-top: 100px;">
+        <div class="col-md" >
+            <div class="project-sbmbeats">
             <h1 class="project-name">SBMbeats</h1>
             <p style="margin-bottom: 20px; margin-left: 5%; margin-right: 5%;">
                 In 2020, on behalf of SBM LABEL, I created a special platform for sharing beats by producers for SBM artists. I have developed the most effective way of segregating beats, unlike adding beats on platforms such as Youtube, Soundcloud, I have enabled rappers to search for a beat at the right pitch, bpm etc. using filters. In addition, I decided to make the page so that all operations were performed as simply as possible and required a few clicks, and the interface was as simple as possible. For the convenience of using the website, I added saving to the Local Storage informations what part of website we used during the last session.
@@ -84,15 +88,19 @@
                 </div>
             </div>
         </div>
+         </div>
     </div>
 </section>
 
+
+
 <section id="Songrator">
-    <div class="row" style="max-width: 98%; padding-top: 50px; margin: auto;">
+    <div class="row" style="max-width: 98%; padding-top: 150px; margin: auto;">
         <div class="col-md" style="text-align: center;">
-            <img src="img/songrator.png" width="80%" alt="songrator" />
+            <img class="songrator-logo" src="img/songrator.png"  alt="songrator" />
         </div>
-        <div class="col-md" style="text-align: center; padding-top: 150px;">
+        <div class="col-md">
+            <div class="project-songrator">
             <h1 class="project-name">SONGrator</h1>
             <p style="margin-bottom: 20px; margin-left: 5%; margin-right: 5%;">
                 In 2019, I wrote a platform for transferring projects between producers and rappers. The main purpose of the platform was to safely send the unpublished song and the ability to listen to it. In addition, I focused on the simplicity of the site, so adding a song and sending it took a few seconds and only a two mouse clicks. The website, despite a narrow audience, generated monthly traffic of 1500+ unique users, of which over 30% were regular users of the platform. Over 40GB of music was added to the site in 5 months.
@@ -113,6 +121,7 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
 <section id="experience" class="experience" >
@@ -122,13 +131,15 @@
         <p>
             Hey, I am a 21 years old computer science student at Maria Curie-Skłodowska University in Lublin. I am a member of the SKNI science club. I took second place at HackYEAH 2019 in the Bosch Rexroth challenge. I took part in FIRST competitions as a Robot Design judge.  
         </p>
-        <p style="color: rgb(165, 165, 165);"> ReactJS • NodeJS • mySQL • HTML • C++ • CSS • bootstrap • Azure • AWS</p>
+        <p class="technology"> ReactJS • NodeJS • mySQL • HTML • C++ • CSS • bootstrap • Azure • AWS</p>
     </div>
     
 </section>
 
 <div style="background-color: rgb(15, 15, 15); text-align: center; padding: 10px;">
-    <a href="mailto:mikopciowski@gmail.com">mikopciowski@gmail.com</a>
+    <a class="iconn" href="https://www.facebook.com/mkopciowski/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a class="iconn" href="mailto:mikopciowski@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a class="iconn" href="https://www.linkedin.com/in/miko%C5%82aj-kopciowski-8a2985190/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
 </div>
     

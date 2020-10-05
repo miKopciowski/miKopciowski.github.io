@@ -27,6 +27,27 @@
       1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255) */
 }
 
+.project-sbmbeats{
+  text-align: center; 
+  /* padding-top: 100px; */
+}
+
+.sbm-logo{
+  width: 80%;
+  /* margin-top: 50px; */
+}
+
+.project-songrator{
+  text-align: center; 
+  /* padding-top: 150px; */
+}
+
+.songrator-logo{
+  width: 80%;
+  /* margin-top: 50px; */
+}
+
+
 .experience{
     /* min-height: 40vh; */
     position: relative;
@@ -34,6 +55,11 @@
     /* min-height: 90vh; */
 }
 
+.technology{
+  color: rgb(165, 165, 165);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
   
   #hero-content {
     font-weight: 700;
@@ -47,3 +73,37 @@
     font-family: Altero;
     src: url("/fonts/Altero-Regular.otf") format("opentype");
 }
+
+.iconn{
+  padding: 10px;
+}
+
+@media (max-width: 1200px) { 
+  .sbm-logo{
+    width: 90%;
+    /* margin-top: 120px; */
+  }
+  .songrator-logo{
+    width: 90%;
+    /* margin-top: 50px; */
+  }
+}
+
+@media (max-width: 768px) { 
+  .project-sbmbeats{
+    text-align: center; 
+    padding-top: 0px;
+  }
+
+  .songrator-logo{
+    width: 90%;
+    margin-top: 50px;
+  }
+  
+  .project-songrator{
+    text-align: center; 
+    padding-top: 50px;
+  }
+
+}
+
