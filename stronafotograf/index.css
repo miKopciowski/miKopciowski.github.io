@@ -1,0 +1,323 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.titlerHero{
+    font-family: 'Playfair Display', serif;
+    margin-top: 80%; 
+    margin-left: 60%;
+}
+
+
+
+.hero{
+    margin-top: 50px;
+    background: url("/img/linie.svg") right / contain no-repeat;
+    background-size: 45% ;
+    background-position: 100% 80%;
+}
+
+#lefthero{
+    /* background-color: red; */
+    background-image: url("/img//hero1.png");
+    background-repeat: no-repeat;
+    background-size: 80% ;
+}
+
+#odkrywaj{
+    display: block;
+}
+
+.odkrywajPhone{
+    display: none;
+}
+
+#hero_right{
+    display: block;
+}
+
+.secPage{
+    margin-top: 60px;
+
+    background: url("/img/elipse.png") right / contain no-repeat;
+    background-size: 70 ;
+    background-position: 100% 80%;
+}
+
+.titlerSec{
+    font-family: 'Playfair Display', serif;
+    margin-top: 80%; 
+    color: black;
+    /* margin-left: 60%; */
+}
+
+#leftsec{
+    /* background-color: red; */
+    background-image: url("/img//sec1.png");
+    background-repeat: no-repeat;
+    background-size: 70% ;
+    background-position: 65% 2%;
+}
+
+.thrPage{
+    margin-top: 100px;
+
+    background: url("/img/portrety.svg") center / cover no-repeat;
+    /* background-size: auto ; */
+    /* background-position: 100% 90%; */
+}
+
+.titlerthr{
+    font-family: 'Playfair Display', serif;
+    
+    /* margin-top: 80%;  */
+    color: black;
+    margin-left: 83%;
+    font-size: 4.7rem;
+/* text-align: right; */
+
+    -ms-writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+
+
+}
+
+#leftthr{
+    margin-top: 60px;
+    /* background-color: red; */
+    background-image: url("/img//thr1.png");
+    background-repeat: no-repeat;
+    background-size: 60% ;
+    background-position: 65% 0%;
+}
+
+.portrety_wiecej{
+    display: none;
+}
+
+
+
+.fourthPage{
+    margin-top: 100px;
+
+}
+
+.fourthPageMobile{
+    display: none;
+}
+
+
+.titlerfourth{
+    font-family: 'Playfair Display', serif;
+    padding-top: 250px;
+    /* margin-top: 80%;  */
+    color: black;
+/* text-align: right; */
+
+}
+
+.fourthBG{
+
+    background: url("/img/rectangle.png") left / contain no-repeat;
+    background-size: 90% ;
+    background-position: 0% 82%;
+
+}
+
+#leftfourth{
+    margin-top: 60px;
+    /* background-color: red; */
+    background-image: url("/img//thr1.png");
+    background-repeat: no-repeat;
+    background-size: 60% ;
+    background-position: 65% 0%;
+}
+
+.fourthbottom{
+    /* min-height: 200px; */
+    margin-top: 30px;
+    margin-left: 40px;
+    background-image: url("/img//fourth3.png");
+    background-repeat: no-repeat;
+    background-size: 60% ;
+    background-position: 65% 0%;
+}
+
+.footer{
+    background-color: #010101;
+    color: white;
+    background-image: url("/img//footerphoto.png");
+    background-repeat: no-repeat;
+    background-size: 50vw ;
+    background-position: 100% 0%;
+
+}
+
+.oMnieSection{
+    margin-top: 100px;
+    display: block;
+}
+
+.oMnieSectionMobile{
+    display: none;
+}
+
+.oMnieBG{
+
+    background: url("/img/omnieractangle.png") bottom / cover no-repeat;
+    background-color: blue;
+    /* background-size: 200% ; */
+    /* background-position: 100% 220px; */
+
+}
+
+.white_circle{
+    padding-top: 80px;
+            position: absolute; 
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto; 
+            width: 150px;
+}
+
+#footertext{
+    margin: 60px; 
+    margin-bottom: 0px;
+}
+
+@media (max-width: 960px) {
+
+    .titlerHero{
+        font-family: 'Playfair Display', serif;
+        margin-top: 85%; 
+        margin-left: 60%;
+    }
+
+    #odkrywaj{
+        display: none;
+    }
+
+    .odkrywajPhone{
+        display: block;
+    }
+    
+    #hero_right{
+        display: none;
+    }
+
+    .secPage{
+        margin-top: 60px;
+    
+        background: url("/img/elipse.png") left / cover no-repeat;
+        /* background-size: 70 ; */
+        /* background-position: 50% 70%; */
+        /* background-color: red; */
+    }
+    
+
+
+    #leftsec{
+        /* background-color: red; */
+        background-image: url("/img//sec1.png");
+        background-repeat: no-repeat;
+        background-size: 70% ;
+        background-position: 80% 0%;
+    }
+    
+    .komunia_zdj{
+        display: none;
+    }
+
+    
+    .slub_zdj{
+        display: none;
+    }
+
+
+    .thrPage{
+        margin-top: 40px;
+    }
+
+    #leftthr{
+        /* margin-top: 30px; */
+        min-height: 300px;
+        /* background-color: red; */
+        background-image: url("/img//thr1.png");
+        background-repeat: no-repeat;
+        background-size: 70% ;
+        background-position: 65% 0%;
+    }
+
+    .portrety_wiecej{
+        display: block;
+    }
+
+    .portrety_zdj{
+        display: none;
+    }
+
+    .fourthPage{
+        display: none;
+    }
+
+    .fourthPageMobile{
+        padding-top: 40px;
+        display: block;
+    }
+
+    .fourthbottom{
+        /* min-height: 200px; */
+        margin-top: 30px;
+        margin-left: 40px;
+        background-image: url("/img//fourth3mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        background-position: 65% 0%;
+    }
+    
+    .titlerfourth{
+        font-family: 'Playfair Display', serif;
+        padding-top: 100px;
+        /* margin-top: 80%;  */
+        color: black;
+    /* text-align: right; */
+    
+    }
+
+    .oMnieSection{
+        display: none;
+    }
+
+    .oMnieSectionMobile{
+        margin-top: 40px;
+        display: block;
+    }
+
+    #rigthfooter{
+        display: none;
+    }
+
+    .white_circle{
+        display: none;
+    }
+
+    .footer{
+        background-color: #010101;
+        color: white;
+        background-image: url();
+        /* background-repeat: no-repeat;
+        background-size: 50vw ;
+        background-position: 100% 0%; */
+    
+    }
+
+    #footertext{
+        margin-left: 20px;
+    }
+
+
+  }
